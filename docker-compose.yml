@@ -25,11 +25,3 @@ phpserver:
     - mysql_db
     - mongo_db
   restart: always
-
-#mongo_db:
-#  image: mongo:latest
-#  ports:
-#        - "27017:27017"
-#  volumes:
-#      - ./mongo/data/:/data/db
-#  restart: always

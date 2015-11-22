@@ -31,5 +31,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
 
     config.vm.provision "shell", path: "./vagrant/set-up.sh"
-#    config.vm.provision "shell", path: "./vagrant/run-env.sh"
+    config.vm.provision "shell", path: "./vagrant/run-env.sh"
 end
